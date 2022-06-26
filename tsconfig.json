@@ -1,0 +1,25 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ESNext",
+        "lib": ["ES2020", "ES2018.promise"],
+        "experimentalDecorators": true,
+        "removeComments": true,
+        "declaration": true,
+        "outDir": "out",
+        
+        "strict": true,
+        
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        
+        "allowUnreachableCode": false,
+        "forceConsistentCasingInFileNames": true,
+        "preserveConstEnums": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
