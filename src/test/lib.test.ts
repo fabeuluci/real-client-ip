@@ -1,5 +1,6 @@
 import * as assert from "assert";
 import { ClientIP, Configuration } from "../ClientIP";
+import "q2-test";
 
 each<[string, string|null]>([
     ["for=123.34.56.78", "123.34.56.78"],
